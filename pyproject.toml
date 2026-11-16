@@ -1,0 +1,19 @@
+[project]
+name = "walc-2026"
+version = "0.1.0"
+description = "WALC 2026 - Notebooks"
+requires-python = ">=3.12"
+dependencies = [
+    "ipywidgets>=8.1.9",
+    "kagglehub>=1.0.3",
+    "matplotlib>=3.11.2",
+    "notebook>=7.6.5",
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "ipykernel",
+]
+
+[tool.uv]
+package = false
